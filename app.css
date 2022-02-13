@@ -1,0 +1,64 @@
+body {
+  position: relative;
+  background-color: rgb(250, 209, 242);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  margin:0;
+}
+
+#mainNavbar {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand {
+  color: #EA1C2C;
+  font-size: 2rem;
+}
+
+#mainNavbar .navbar-collapse .nav-link:hover{
+  color:rgb(255, 0, 0);
+}
+
+
+.hand-donut {
+  transform: translateY(-80px);
+}
+.hand-donut .text-donut {padding-top: 90px;}
+.hand-donut p.name-museum{
+  text-align: center; 
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(255,255,255);
+  font-weight: 100;
+}
+.hand-donut .img-donut {
+  padding:0;
+}
+strong {color: rgb(255, 0, 0);}
+
+hr{border-top:0;
+margin-top: 4rem;}
+
+.introduce-text {
+  font-size: 100%;
+  color: rgb(253, 116, 196);
+}
+
+h1{
+  color: rgb(252, 137, 229); 
+  text-transform: uppercase;
+
+}
+
+.col-md-6 {padding: 0;}
+
+.navbar.scrolled{
+  background:rgb(227, 169, 253);
+}
+
+@media (max-width: 768px){
+  .navbar-collapse.show:focus .hand-donut {transform: trnalateY(50px);}
+  hr {margin-top:5rem;}
+  
+}
